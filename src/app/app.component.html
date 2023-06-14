@@ -2,10 +2,8 @@
 <div class="section-input">
     <input type="date" #date />
     <button (click)="Convert(date.value)">Convert</button>
-  </div>
+</div>
   
-  <div class="result-section">
-    <span style="color: rgb(189, 0, 0);" >Must Enter a Date !</span>
-  <!-- <span>Date : 17.02.2023</span> -->
+<div class="result-section">
   <span>Result : {{ConvertedDate.hebrew}}</span>
 </div>

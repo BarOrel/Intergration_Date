@@ -9,7 +9,7 @@ import { DateConverterService } from './Services/DateConverter.service';
 export class AppComponent {
   title = 'Intergration_Date';
   ConvertedDate:any;
-  
+
   constructor(private dateConverter:DateConverterService){}
 
   Convert(date:any){
@@ -17,7 +17,6 @@ export class AppComponent {
       console.log(data)
       this.ConvertedDate = data
     })
-    console.log(date)
   }
 
 }

@@ -10,6 +10,6 @@ BaseUrl:string = "https://www.hebcal.com/converter?cfg=json&date=";
 constructor(private http:HttpClient) { }
 
 ConvertDate(date:any){
-return this.http.get(this.BaseUrl + date)
-}
+return this.http.get(this.BaseUrl + date)}
+
 }
